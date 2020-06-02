@@ -1,7 +1,7 @@
 ﻿// ----------------------------------------------------------------------------------------------------
 // 1. Load Bootstrap 4 Helpers
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/mixins";
 
 
 // ----------------------------------------------------------------------------------------------------
@@ -104,5 +104,5 @@ $font-family-base: $font-family-sans-serif;
 // ----------------------------------------------------------------------------------------------------
 // 5. Initialize the default bootstrap variables so they are ready
 // Tip: In VS-Code, Ctrl+Click on the link below to open the file
-@import "../../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables";
 

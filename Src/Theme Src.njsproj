@@ -32,11 +32,41 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="package-lock.json" />
-    <Content Include="theme.scss" />
-    <Content Include="theme.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="scss\components\optional\_form-dnncentric.scss" />
+    <Content Include="scss\components\_base-layout.scss" />
+    <Content Include="scss\components\_dnn-overrides.scss" />
+    <Content Include="scss\components\_fancybox.scss" />
+    <Content Include="scss\components\_footer.scss" />
+    <Content Include="scss\components\_header.scss" />
+    <Content Include="scss\components\_nav-desktop-main.scss" />
+    <Content Include="scss\components\_nav-desktop-sub.scss" />
+    <Content Include="scss\components\_nav-mobile-to-top.scss" />
+    <Content Include="scss\components\_nav-mobile.scss" />
+    <Content Include="scss\components\_print.scss" />
+    <Content Include="scss\components\_typography.scss" />
+    <Content Include="scss\layout-variations\_layout-header-variations.scss" />
+    <Content Include="scss\layout-variations\_layout-variation-box.scss" />
+    <Content Include="scss\layout-variations\_layout-variation-default.scss" />
+    <Content Include="scss\layout-variations\_layout-variation-full.scss" />
+    <Content Include="scss\layout-variations\_layout-variation-landingpage.scss" />
+    <Content Include="scss\layout-variations\_layout-variation-wide.scss" />
+    <Content Include="scss\readme.md" />
+    <Content Include="scss\theme.scss" />
+    <Content Include="scss\_variables.scss" />
     <Content Include="tsconfig.json" />
+    <Content Include="webpack.config.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scss\" />
+    <Folder Include="scss\components\" />
+    <Folder Include="scss\components\optional\" />
+    <Folder Include="scss\layout-variations\" />
+    <Folder Include="ts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ts\theme.ts" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

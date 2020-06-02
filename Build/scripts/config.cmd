@@ -6,10 +6,10 @@
 
 :: The root target path - adjust to your testing- & dev-environment
 set targetroot=..\..\oqtane.framework
-set themename=Example.Oqt.Themes.Template
+set themename=ToSic.Oqt.Themes.Boostrap4Pro
 
 :: Important, the dll name must contain the full word Oqtane as of now - WIP, see https://azing.org/oqtane/r/KXsLEVkZ
-set dllname=Example.Oqtane.Themes.Template
+set dllname=ToSic.Oqtane.Themes.Boostrap4Pro
 
 :: Nuspec file, for release cycle
 set nugetfile=%dllname%.nuspec

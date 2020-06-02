@@ -16,7 +16,8 @@ XCOPY "%source%\bin\Debug\netstandard2.1\%dllname%.dll" "%targetpathdll%" /Y
 XCOPY "%source%\bin\Debug\netstandard2.1\%dllname%.pdb" "%targetpathdll%" /Y
 
 :: Copy any assets from /dist/ to the target
-XCOPY "%source%\dist\*" "%targetpathassets%" /Y /S /I
+set distSource=..\Src\dist
+XCOPY "%distSource%\*" "%targetpathassets%" /Y /S /I
 
 :: Inform we're done
 @echo ----- Done!

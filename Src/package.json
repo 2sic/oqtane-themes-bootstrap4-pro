@@ -1,22 +1,33 @@
 {
-  "name": "oqtane-theme-template",
+  "name": "tosic-oqtane-theme-bootstrap4-pro",
   "version": "0.0.1",
   "description": "This folder contains the theme project of this solution. These are the parts ATM",
   "main": "theme.ts",
   "scripts": {
-    "build": "npm run typescript && npm run sass",
-    "typescript": "tsc --build",
-    "clean": "tsc --build --clean",
-    "sass": "node-sass theme.scss -o ../Theme/dist --output-style compressed --source-map true"
+    "build": "webpack"
   },
   "author": "iJungleboy",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cpx": "^1.5.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
-    "typescript": "^3.9.3"
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "terser-webpack-plugin": "^3.0.2",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpackbar": "^4.0.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "bootswatch": "^4.5.0"
+    "popper.js": "^1.14.3"
   }
 }

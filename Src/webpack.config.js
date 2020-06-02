@@ -6,7 +6,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const WebpackBar = require('webpackbar');
 
 module.exports = {
-  entry: ['./src/scss/theme.scss', './src/ts/theme.ts'],
+  entry: ['./scss/theme.scss', './ts/theme.ts'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'theme.min.js',
