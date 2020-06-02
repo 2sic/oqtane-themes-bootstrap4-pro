@@ -1,12 +1,22 @@
 <img src="assets/screenshot-home-v00.00.02.png" width="50%" align="right" border="1">
 
-# Template Theme for Oqtane
+# Bootstrap 4 Pro Theme for Oqtane - WIP
 
-This is a template theme for [Oqtane](https://www.oqtane.org/). The idea is that you...
+This is a Bootstrap 4 theme for [Oqtane](https://www.oqtane.org/). It uses standard best practices for Bootstrap 4 and all the features we believe are currently relevant for use together with Oqtane. 
 
-1. Download it and build it to verify it works
-1. Then replace all the names / IDs etc. so it matches what you want to publish
-1. And then you can start customizing as you want to 
+
+> Note that as of 2020-06 it's WIP
+> We're tring to make it feature complete, but it's going to take a while
+> As some features may also need Oqtane to grow until it's ready 
+
+
+## Priorities
+
+1. Get pane / content struture to match Bootstrap 4 Instant
+1. Get features like body classes to match context, to use for CSS rules
+1. Get Side-Menu to work professionally - without jQuery
+1. ...etc.
+
 
 
 ## What's included

@@ -5,7 +5,7 @@
   "main": "theme.ts",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack --watch", 
+    "dev": "webpack --watch --output-path='../../oqtane.framework/Oqtane.Server/wwwroot/Themes/ToSic.Oqt.Themes.Bootstrap4Pro/dist'", 
     "clean": "" 
   },
   "author": "iJungleboy",
