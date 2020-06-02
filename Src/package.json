@@ -4,7 +4,9 @@
   "description": "This folder contains the theme project of this solution. These are the parts ATM",
   "main": "theme.ts",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack --watch", 
+    "clean": "" 
   },
   "author": "iJungleboy",
   "license": "MIT",

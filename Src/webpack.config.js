@@ -9,11 +9,11 @@ module.exports = {
   entry: ['./scss/theme.scss', './ts/theme.ts'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'theme.min.js',
+    filename: 'theme.js',
   },
   mode: 'production',
   devtool: 'source-map',
-  watch: true,
+  // watch: true,
   stats: {
     all: false,
     assets: true
@@ -44,7 +44,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'theme.min.css',
+      filename: 'theme.css',
     }),
     new WebpackBar(),
     new FriendlyErrorsWebpackPlugin(),

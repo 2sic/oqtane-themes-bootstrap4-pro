@@ -2,7 +2,7 @@
 using Oqtane.Models;
 using Oqtane.Shared;
 
-namespace Example.Oqt.Themes.Template
+namespace ToSic.Oqt.Themes.Bootstrap4Pro
 {
     /// <summary>
     /// This is the Code-Behind example for the Theme-Default

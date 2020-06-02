@@ -4,12 +4,16 @@
 :: Disable too much output
 @echo off
 
+:: Seed values
+set creator=ToSic
+set themePartialName=Bootstrap4Pro
+
 :: The root target path - adjust to your testing- & dev-environment
 set targetroot=..\..\oqtane.framework
-set themename=ToSic.Oqt.Themes.Boostrap4Pro
+set themename=%creator%.Oqt.Themes.%themePartialName%
 
 :: Important, the dll name must contain the full word Oqtane as of now - WIP, see https://azing.org/oqtane/r/KXsLEVkZ
-set dllname=ToSic.Oqtane.Themes.Boostrap4Pro
+set dllname=%creator%.Oqtane.Themes.%themePartialName%
 
 :: Nuspec file, for release cycle
 set nugetfile=%dllname%.nuspec
